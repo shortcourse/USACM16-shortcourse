@@ -15,5 +15,5 @@
 ## Instructors 
 
 * [Patrick Diehl](https://www.diehlpk.de/)
-* [Steve R. Brandt]
-* ]Hartmut Kaiser]
+* Steve R. Brandt
+* [Hartmut Kaiser](www.cct.lsu.edu/~hkaiser)
