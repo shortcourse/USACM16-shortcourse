@@ -2,7 +2,7 @@
 
 ## Agenda
 
-* Introduction to C++17 and C++20, Hartmut Kaiser, 10 a.m. CT to 10:45 a.m CT
+* Introduction to C++17 and C++20, Hartmut Kaiser, 10 a.m. CT to 10:45 a.m CT, [Slides](https://drive.google.com/file/d/1iF895LQMAvKtPoO-niU7AkEwDLPoJeTB/view?usp=sharing)
 * Q&A, 10:45 a.m CT to 11:00 a.m. CT
 * Break, 11:00 a.m CT to 11:10 a.m. CT
 * Introduction to asynchronous programming and the parallel algorithms, Patrick Diehl, 11:10 am. CT to 12 p.m CT
