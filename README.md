@@ -17,3 +17,13 @@
 * [Patrick Diehl](https://www.diehlpk.de/)
 * Steve R. Brandt
 * [Hartmut Kaiser](www.cct.lsu.edu/~hkaiser)
+
+## Resources
+
+### C++ Explorer
+
+The source code and Docker image is available on [GitHub](https://github.com/stevenrbrandt/CxxExplorer).
+
+### Parallel algorithms and asynchronous programming
+
+Some lecture slides, additional exercises, and some course notes are available [here](https://www.cct.lsu.edu/~pdiehl/teaching/2021/4997/).  
