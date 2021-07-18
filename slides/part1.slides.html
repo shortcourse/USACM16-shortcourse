@@ -14854,7 +14854,7 @@ $$ \sum_{i=0}^N r+= n[i] $$<p>in sequential and parallel using the C++ Standard 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="Naive-implementation">Naive implementation<a class="anchor-link" href="#Naive-implementation">&#182;</a></h4>
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
@@ -14916,12 +14916,12 @@ $$ \sum_{i=0}^N r+= n[i] $$<p>in sequential and parallel using the C++ Standard 
 
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="Implementation-using-the-C++-STL-sequential-algorithms">Implementation using the C++ STL sequential algorithms<a class="anchor-link" href="#Implementation-using-the-C++-STL-sequential-algorithms">&#182;</a></h4>
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
@@ -14977,12 +14977,12 @@ $$ \sum_{i=0}^N r+= n[i] $$<p>in sequential and parallel using the C++ Standard 
 
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="Implementation-using-the-C++-STL-parallel-algorithms">Implementation using the C++ STL parallel algorithms<a class="anchor-link" href="#Implementation-using-the-C++-STL-parallel-algorithms">&#182;</a></h4>
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
@@ -15037,7 +15037,7 @@ $$ \sum_{i=0}^N r+= n[i] $$<p>in sequential and parallel using the C++ Standard 
 
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h5 id="Compilation">Compilation<a class="anchor-link" href="#Compilation">&#182;</a></h5><p>The parallism for the gcc is based-on the <a href="https://github.com/oneapi-src/oneTBB">Threading Building Blocks</a> libary. Therfore, we need to add <code>-ltbb</code> to the compiler. Since these feature are experimental, we need to use the following C++ standard <code>-std=c++1z</code>.</p>
