@@ -16,7 +16,7 @@
 
 * [Patrick Diehl](https://www.diehlpk.de/)
 * Steve R. Brandt
-* [Hartmut Kaiser](www.cct.lsu.edu/~hkaiser)
+* [Hartmut Kaiser](https://www.cct.lsu.edu/~hkaiser)
 
 ## Resources
 
