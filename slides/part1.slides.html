@@ -15023,7 +15023,7 @@ Result:-1000000000
 </div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-c++"><pre><span></span><span class="o">%%</span><span class="n">writefile</span> <span class="n">loop</span><span class="p">.</span><span class="n">cpp</span>
@@ -15039,7 +15039,8 @@ Result:-1000000000
 <span class="p">{</span>
 
 <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">l</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-<span class="n">std</span><span class="o">::</span><span class="n">fill</span><span class="p">(</span><span class="n">l</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="n">l</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="n">std</span><span class="o">::</span><span class="n">experimental</span><span class="o">::</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">50</span><span class="p">));</span>
+<span class="n">std</span><span class="o">::</span><span class="n">srand</span> <span class="p">(</span><span class="n">time</span><span class="p">(</span><span class="nb">NULL</span><span class="p">));</span>
+<span class="n">std</span><span class="o">::</span><span class="n">generate</span><span class="p">(</span><span class="n">l</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">l</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">rand</span><span class="p">);</span>
 
 <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">i</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
 
@@ -15071,7 +15072,7 @@ Result:-1000000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
 
 
 
@@ -15089,7 +15090,7 @@ Result:-1000000000
 </div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-c++"><pre><span></span><span class="o">%%</span><span class="n">bash</span>
@@ -15109,7 +15110,7 @@ Result:-1000000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[79]:</div>
 
 
 
@@ -15126,7 +15127,7 @@ Result:-1000000000
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-c++"><pre><span></span><span class="o">%%</span><span class="n">bash</span> 
@@ -15146,21 +15147,21 @@ Result:-1000000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[80]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<pre>Element: 47 at index: 0
-Element: 47 at index: 1
-Element: 47 at index: 2
-Element: 47 at index: 3
-Element: 47 at index: 4
-Element: 47 at index: 5
-Element: 47 at index: 6
-Element: 47 at index: 7
-Element: 47 at index: 8
-Element: 47 at index: 9
+<pre>Element: 858665547 at index: 0
+Element: 44651610 at index: 1
+Element: 1758033419 at index: 2
+Element: 1001389801 at index: 3
+Element: 1841445098 at index: 4
+Element: 827817333 at index: 5
+Element: 1382917348 at index: 6
+Element: 840201672 at index: 7
+Element: 98077046 at index: 8
+Element: 1061316923 at index: 9
 </pre><pre style="color: red"></pre>
 </div>
 
